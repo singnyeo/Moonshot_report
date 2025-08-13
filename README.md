@@ -2,18 +2,19 @@
 
 ## ⚙️ 개발 환경 및 협업 도구
 
-| 구분       | 내용                                  |
-|------------|-------------------------------------|
-| Backend    | Node.js (Express) + TypeScript       |
-| Database   | PostgreSQL                          |
-| API 문서화 | Swagger                            |
-| 협업 도구   | GitHub, Notion, Discord             |
-| 일정 관리   | GitHub Issues + Notion 타임라인      |
-| 브랜치 전략 | Git-Flow + dev                      |
-| 네이밍 컨벤션 | GitHub 위키 네이밍 컨벤션 참고       |
-| 커밋 컨벤션 | GitHub 위키 커밋 컨벤션 참고         |
-| PR 규칙    | GitHub 위키 PR 컨벤션 참고           |
-| 데일리 스크럼 | 매일 오전 9시                      |
+| 구분         | 내용|
+|--------------|---------------------------------|
+| Backend      | Node.js (Express) + TypeScript |
+| Database     | PostgreSQL |
+| API 문서화   | Swagger |
+| 협업 도구     | GitHub, Notion, Discord |
+| 일정 관리     | GitHub Issues + Notion 타임라인 |
+| 브랜치 전략   | Git-Flow + dev |
+| 네이밍 컨벤션 | [GitHub 위키 네이밍 컨벤션](https://github.com/nb02-moonshot-team2/nb02-moonshot-backend/wiki/%5B%EA%B0%9C%EB%B0%9C-%EA%B7%9C%EC%B9%99%5D-%EB%84%A4%EC%9D%B4%EB%B0%8D-%EC%BB%A8%EB%B2%A4%EC%85%98) |
+| 커밋 컨벤션   | [GitHub 위키 커밋 컨벤션](https://github.com/nb02-moonshot-team2/nb02-moonshot-backend/wiki/%5B%EA%B0%9C%EB%B0%9C-%EA%B7%9C%EC%B9%99%5D-%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98) |
+| PR 규칙      | [GitHub 위키 PR 컨벤션](https://github.com/nb02-moonshot-team2/nb02-moonshot-backend/wiki/%5B%EA%B0%9C%EB%B0%9C-%EA%B7%9C%EC%B9%99%5D-PR-%EC%BB%A8%EB%B2%A4%EC%85%98) |
+| 데일리 스크럼 | 매일 오전 9시 |
+
 
 ## 📋 프로젝트 개요
 
@@ -30,7 +31,8 @@
 - 프로젝트 삭제 시 멤버 이메일 수집 후 알림 메일 발송 기능 구현  
 - 권한 검증을 위한 미들웨어(authorization) 구현  
 - Prisma ORM을 활용한 데이터베이스 쿼리 및 트랜잭션 처리 구현  
-- 에러 핸들링 미들웨어와 통합하여 일관된 예외 처리 구조 적용  
+- 에러 핸들링 미들웨어와 통합하여 일관된 예외 처리 구조 적용
+- PR 템플릿과 Issue 템플릿을 직접 작성하여 협업 프로세스 개선    
 
 
 ## 🚀 기술적 성과
@@ -118,6 +120,8 @@ next();
 - 프론트엔드와 API 요청/응답 명세를 정기적으로 공유하며, 쿼리 파라미터의 유효성 검사와 예외처리 기준에 대해 조율하였습니다.  
 - GitHub PR 코멘트를 적극 수용하여 코드 품질 개선 및 주석 보완에 신경 썼습니다.  
 - ESLint, Prettier, Husky 등의 도구 도입으로 코드 스타일을 통일하며 협업 효율성을 높였습니다.
+원활한 협업을 위해 PR 템플릿과 Issue 템플릿을 제작, 팀원들이 편리하게 이슈와 PR을 작성할 수 있도록 지원하였습니다.
+- `.gitattributes` 설정(`* text=auto eol=lf`)으로 운영체제별 줄바꿈 문제를 방지해 코드 일관성을 확보했습니다.
 
 
 ## 🧹 코드 품질 및 최적화
@@ -141,3 +145,8 @@ next();
 - API 요청 파라미터 유효성 검사에 `Joi` 등 스키마 검증 라이브러리 적용 고려  
 - 테스트 코드 보완 및 통합 테스트 환경 구축으로 안정성 강화  
 
+
+## 🔗 참고 링크
+
+- [GitHub](https://github.com/nb02-moonshot-team2/nb02-moonshot-backend)  
+- [프로젝트 계획서](https://www.notion.so/2065c17d948680e984f1e73ea7c43d70?source=copy_link)
