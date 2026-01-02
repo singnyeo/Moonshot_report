@@ -1,4 +1,4 @@
-# 🌙 중급 프로젝트 Moonshot: 강시연 개발 리포트
+# 🌙 Moonshot 프로젝트: 강시연 개발 리포트
 
 ## ⚙️ 개발 환경 및 협업 도구
 
@@ -150,3 +150,4 @@ next();
 
 - [GitHub](https://github.com/nb02-moonshot-team2/nb02-moonshot-backend)  
 - [프로젝트 계획서](https://www.notion.so/2065c17d948680e984f1e73ea7c43d70?source=copy_link)
+
